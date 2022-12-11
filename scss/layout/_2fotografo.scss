@@ -1,0 +1,38 @@
+/*----------------------------------------FOTOGRAFO--------------------------------------- */
+  
+.menu-fotografo  {
+    background-color: #000000d7;
+    padding: 1em;
+    border: solid 0.25em #000000;
+    color: #f1f1f1;
+  }
+  
+  .contenedor_fotos{
+    background-color: #000000d7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tomaño-foto{
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 1em;
+  }
+  
+  .foto_uno,
+  .foto_dos,
+  .foto_tres,
+  .foto_cuatro,
+  .foto_cinco,
+  .foto_seis,
+  .foto_siete {
+    width: 33.33%;
+  }
+  
+  .tex_fotograf {
+    text-align: justify;
+    padding: 2em;
+  }
+  

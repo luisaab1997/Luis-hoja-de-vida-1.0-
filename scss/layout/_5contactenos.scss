@@ -1,0 +1,89 @@
+ /*----------------------------------------CONTACTANOS--------------------------------------- */
+  
+ .grid-contactenos {
+    background-color: #86b4e2;
+    display: grid;
+    grid-template-columns: 0.7fr  1fr ;
+    grid-template-rows:  1fr  5fr  1fr 1fr;
+   }  
+  
+   .grid-titul-con{
+    margin: auto;
+    grid-column: 1/3;
+    grid-row: 1;
+   }
+  
+   .grid-form{
+    grid-column: 1;
+    grid-row: 2/4;
+   }
+  
+   .grid-mapa{
+    width: 40em;
+    
+    grid-column: 2;
+    grid-row: 2;
+   }
+  
+  .contactenos_info {
+    width: 35em;
+    display: flex;
+    margin: auto;
+    padding-top: 1em;
+    padding-left: 4em;
+    border: solid 0.25em #ff0303;
+    border-radius: 1em;
+  }
+  
+  .centro-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1em;
+  }
+  
+  .sino {
+    padding: 0.5em;
+    margin: auto;
+  }
+  
+  .cometario-con {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .boton-enviar {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  
+  #nombre {
+    width: 25em;
+    height: 2.5em;
+  }
+  
+  #numero {
+    width: 25em;
+    height: 2.5em;
+  }
+  #correo {
+    width: 25em;
+    height: 2.5em;
+  }
+  
+  #comentario {
+    width: 25em;
+    height: 14em;
+  }
+  
+  #enviar {
+    border-radius: 1em;
+    height: 2em;
+    width: 8em;
+    background-color: #ff0303;
+    color: #fcfcfc;
+    font-size: 2em;
+  }
+  

@@ -1,0 +1,104 @@
+/*-------------------------------------------INGENIERO------------------------------------ */
+  
+.contenedor-grid-ing {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 3% 65% 23.5% 8.5%;
+    grid-template-areas: 
+      "menuu menuu "
+      "fotos-index fotos-index "
+      "contenido contenido "
+      "pie-depagina pie-depagina ";
+  }
+      
+  .header-grid-ing{
+        grid-area: menuu;
+  }
+      
+  .main-grid{
+    background-color: #000000d7;
+    grid-area: fotos-index;
+  }
+  
+  .aside-grid{
+    background-color: #000000d7;
+    grid-area: contenido;
+  }
+      
+  .foorter-grid-ing{
+        grid-area: pie-depagina;
+  }
+  
+  .contenido-ing  {
+    display: grid;
+    grid-template-columns: 0.4fr  1fr 1fr;
+    grid-template-rows:  0.2fr  1fr  0.7fr;
+  }
+  
+  .titulo-inge{
+    margin: auto;
+    font-size: 5em;
+    grid-column: 1/4;
+    grid-row: 1;
+  }
+  
+  .foto-una-inge{
+    margin: auto;
+    grid-column: 1;
+    grid-row: 2;
+  }
+      
+  .texto-inge{
+    margin: 1em;
+    text-align: justify;
+    grid-column: 2/4;
+    grid-row: 2;
+  }
+  
+  .video-inge{
+    display: flex;
+    align-items: center;
+    grid-column: 3;
+    grid-row: 3/4;
+  }
+  
+  .texto-inge-dos{
+    text-align: justify;
+    margin: 1em;
+    grid-column: 1/3;
+    grid-row: 3;
+  }
+  
+  .foto-una-ing{
+    width: 20em;
+    padding: 1em;
+  }
+  
+  .foto-dos-ing{
+    width: 15em;
+  }
+      
+  .aside-cont-ing{
+    display: grid;
+    grid-template-columns: 0.2fr  1fr;
+    grid-template-rows:  0.2fr  1fr;
+  }
+  
+  .titulo-inge-dos{
+    grid-column: 1/4;
+    font-size: 3em;
+    margin: auto;
+  }
+  
+  .texto-inge-tres{
+    grid-column: 2;
+    grid-row: 2;
+    text-align: justify;
+    padding: 1em;
+  }
+  
+  .foto-dos-inge{
+    margin: auto;
+    grid-column: 1;
+    grid-row: 2;
+  }
